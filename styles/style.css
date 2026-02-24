@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: aliceblue;
+  background-image: linear-gradient(
+    180deg,
+    rgba(251, 51, 166, 1),
+    rgba(127, 72, 176, 1) 50%,
+    rgba(48, 145, 211, 1) 100%
+  );
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+body {
+  min-height: 100vh;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+main section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+h2,
+h4,
+h3,
+h5 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+}
+h3 {
+  position: absolute;
+  padding-left: 3rem;
+  font-size: 2rem;
+  font-weight: 800;
+  bottom: -122rem;
+}
+h2 {
+  font-size: 2.1rem;
+  letter-spacing: 0.0375rem;
+  padding-left: 3.2rem;
+  padding-top: 2rem;
+}
+ion-icon {
+  font-size: 25px;
+}
+.learn-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+  border-radius: 8px;
+  box-shadow: 5px 5px #000000b3;
+  padding: 0.5rem 1rem;
+  font-family: Archivo, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  right: 16rem;
+}
+.learn-button:hover {
+  box-shadow: 0px 0px;
+  cursor: pointer;
+  width: 7.8rem;
+}
+
+#page-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  position: static;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  background-color: rgb(29, 29, 29);
+  padding: 1rem 2rem;
+}
+
+#page-header nav {
+  display: contents;
+}
+
+#page-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu {
+  justify-self: center;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+  align-items: center;
+  font-family: "Archivo", sans-serif;
+}
+.nav-menu ion-icon {
+  font-size: 16px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu :hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.nav-icons {
+  justify-self: end;
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.rotate-text {
+  display: flex;
+  flex-wrap: wrap;
+  writing-mode: sideways-lr;
+  font-size: 16px;
+  letter-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo", sans-serif;
+  color: rgb(255, 255, 255);
+  opacity: 75%;
+  text-transform: uppercase;
+}
+
+#rotate-text-bottom {
+  position: absolute;
+  right: -3rem;
+  bottom: 13rem;
+}
+
+.spin-head {
+  align-items: center;
+  position: relative;
+  left: 440px;
+  bottom: 12px;
+  opacity: 75%;
+}
+
+.head-title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.3rem;
+  opacity: 75%;
+  color: rgb(255, 255, 255);
+  position: relative;
+  right: 16rem;
+  bottom: 6rem;
+}
+.head-place {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: bold;
+  position: relative;
+  width: 42rem;
+  right: 16rem;
+  bottom: 6rem;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  line-height: 2.5rem;
+}
+.head-desc {
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 35rem;
+  right: 16rem;
+  bottom: 3rem;
+}
+.thank-text {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 2.35rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 3rem;
+  bottom: -28rem;
+}
+.thank-text-middle {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 3rem;
+  bottom: -35rem;
+  width: 38rem;
+  line-height: 1.4rem;
+}
+.thank-text-bottom {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 3rem;
+  bottom: -40rem;
+  width: 38rem;
+  line-height: 1.4rem;
+}
+
+.shop-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.shop-card {
+  width: 225px;
+  height: 280px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  color: black;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: rgb(160 202 172);
+}
+.shop-card img {
+  max-width: 500%;
+  max-height: 80%;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.peace-img {
+  display: flex;
+  position: absolute;
+  right: 4rem;
+  bottom: -73rem;
+  width: 686px;
+  height: 754px;
+}
+
+#Rudy-title {
+  display: flex;
+  position: relative;
+  padding-top: 28rem;
+  text-transform: uppercase;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 600;
+  width: max-content;
+}
+
+.rudys-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.rudys-logo h3 {
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  background-image: linear-gradient(
+    180deg,
+    rgba(251, 51, 166, 1),
+    rgba(127, 72, 176, 1) 50%,
+    rgba(48, 145, 211, 1) 100%
+  );
+  width: 90%;
+  position: relative;
+  text-align: center;
+  bottom: 8rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Bricolage Grotesque", sans-serif;
+  line-height: 2rem;
+}
+
+.rudys-logo img {
+  width: 700px;
+}
+
+.card-wrap {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  width: 28rem;
+  min-height: 280px;
+  text-align: center;
+  border-radius: 8px;
+  color: black;
+  background-color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 700;
+}
+.card ion-icon {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  font-size: 16px;
+}
+.card h5 {
+  font-weight: bolder;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: rgb(29, 29, 29);
+  padding-bottom: 1rem;
+  line-height: 1.4;
+}
+.card p {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: rgb(29, 29, 29);
+  padding-bottom: 1rem;
+  letter-spacing: 0.03rem;
+}
+.card h6 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: rgb(29, 29, 29);
+  padding-bottom: 1rem;
+}
+
+.page-footer {
+  background-color: #1d1d1d;
+  margin-top: 4rem;
+}
+
+.page-footer h2 {
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-size: 1rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  text-align: center;
+}
+
+.page-footer p {
+  font-size: 0.9rem;
+  color: rgba(242, 242, 242, 0.75);
+  font-family: Archivo, sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page-footer img {
+  border-radius: 8px;
+  position: relative;
+}
+#shop-photo {
+  padding-top: 3rem;
+  padding-left: 8rem;
+}
+
+#shop-photo img {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+#shop-photo h2,
+#shop-photo p {
+  max-width: 300px;
+  text-align: center;
+}
+
+button {
+  position: relative;
+  left: 5.4rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid;
+  box-shadow: none;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: Archivo, sans-serif;
+}
+
+.quick-links {
+  bottom: -170.5rem;
+  left: 35rem;
+  position: absolute;
+  justify-self: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+  align-items: center;
+  font-family: "Archivo", sans-serif;
+}
+.quick-links li {
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  color: rgba(242, 242, 242, 0.75);
+  font-family: Archivo, sans-serif;
+}
+
+.quick-links ion-icon {
+  font-size: 16px;
+}
+/*this one was annoying to figure out. took like an hour for 2 lines :(*/
+.quick-links li:not(:first-child):hover {
+  text-decoration: underline;
+}
+
+.quick-links h4 {
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255);
+  font-family: "Bricolage Grotesque", sans-serif;
+  text-decoration: none;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30rem;
+  bottom: -164rem;
+}
+.footer-email p {
+  text-align: left;
+}
+
+.footer-email input {
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border-color: white;
+}
+.footer-email input[type="checkbox"] {
+  position: absolute;
+  bottom: -2rem;
+  flex-direction: row;
+  padding-top: 1rem;
+  align-self: first baseline;
+}
+label {
+  position: absolute;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  color: rgba(242, 242, 242, 0.75);
+  font-family: Archivo, sans-serif;
+  bottom: -4rem;
+  left: 1rem;
+}
