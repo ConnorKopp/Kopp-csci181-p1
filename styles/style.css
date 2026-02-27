@@ -195,36 +195,26 @@ ion-icon {
   right: 16rem;
   bottom: 3rem;
 }
-.thank-text {
+
+.thanks-text {
+  position: relative;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  max-width: 600px;
+  right: 17rem;
+}
+.thanks-text h4 {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 700;
   font-size: 2.35rem;
   color: rgb(255, 255, 255);
-  position: absolute;
-  left: 3rem;
-  bottom: -28rem;
+  max-width: 600px;
+  padding-bottom: 3rem;
 }
-.thank-text-middle {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-weight: 800;
-  font-size: 1.1rem;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  left: 3rem;
-  bottom: -35rem;
-  width: 38rem;
-  line-height: 1.4rem;
-}
-.thank-text-bottom {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-weight: 800;
-  font-size: 1.1rem;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  left: 3rem;
-  bottom: -40rem;
-  width: 38rem;
-  line-height: 1.4rem;
+.thanks-text p {
+  padding-bottom: 1rem;
 }
 
 .shop-wrap {
